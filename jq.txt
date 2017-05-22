@@ -1,0 +1,73 @@
+onload  当静态资源加载完了之后   （css和html）在执行代码
+
+document  DOMContentLoaded   在事件监听器里面   document 执行完了 执行代码  ready
+
+$(obj).each(function(索引，每个){})
+至于 each  的一组元素之后   函数的第二个函数  为原生对象   原生对象 不能用JQ方法  要加上$()    
+
+原生对象转化  JQ  只要  $(原生对象)  get 把JQ 转成对象
+
+$(this).parent().hide()   parent  parent  parent 父级
+
+prev  上一个兄弟节点    next 下一个兄弟节点  siblings(范围)符合条件的 所有其他的兄弟节点
+
+首尾节点 （是一组的).first   尾部 last
+
+closest   查找条件  closest  closest   closest  条件查找 自身满足优先自身  最近的父级
+
+ 父级  docmount  文档     closest（限制范围）  找离自生最近的父级  如果自己符号条件 就用自己
+
+兄弟节点  prev()上一个兄弟节点  next()下 一个兄弟节点如果没有找到  返回长度为0的对象
+
+siblings(可以加限制范围)  除了自身的别的所以兄弟节点 
+
+首尾部 的 兄弟节点 $(一组).first().css()  第一个    last()最后一个
+
+before  把当前元素放到   目标元素的前面      
+
+after  是把当前元素放到   目标元素的前面  insertBefore 把当前元素放到目标元素的后面
+
+window.scroll  滚轮                    
+
+scrollHeight  文本内容的高度  $(obj).height()     outerHeight() 带边框 + padding如果带true就算上margin   innerHeight 带padding不带边框  -> clientH..
+
+offset().left   绝对的位子不会变的 到可视区  position().top以定位父级为基准，当前元素的上外边框，到定位父级的上内边框
+
+off()解除绑定     jq中的EV  是二次封装的  ev.stopPropagation 阻止冒泡   
+
+keydown  按下 键盘   evkeyCode  键值对  ev.preventDefault()阻止 默认行为  return false 既能阻止默认行为 也能阻止 冒泡
+
+find() 先缓存 在查找
+
+hover    就是 leave   enter     .hover(function(){},function(){})
+
+hide(时间)消失    show(时间)展开   toggle(500)   fadeToggle （淡入淡出）  animate({})对象  时间为第二个参数   状态   回调 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
