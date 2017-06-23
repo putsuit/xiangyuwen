@@ -1,0 +1,3 @@
+MVC  modle 模型  view 视图    controller 控制器     模型视图控制器
+
+upload.onprogress上传进展条  upload上传  onprogress 进展     
