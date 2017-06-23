@@ -1,0 +1,18 @@
+var v = new Vue({})
+v-for   不管是数组还是对象都是通过in 来遍历   如果是数组就是index  in  数组 vel 数组的每一项 index 索引值
+ 
+如果是对象就是 var ,key in  data
+
+v-model="val"   双向指定   v-model.trim.number  可以连续写参数  去前后空格和转化数 
+
+v-blan:class="数组和对象"  绑定class属性   如果是数组 那么class值要跟数据中的值对应  如果为对象class
+值为{red(classname):boolem}  如果为true就是添加CLASS   缩写：
+
+
+v-on:click="fn"   添加事件  缩写@  配合methods:{fn1(){}  fn2(){}}配合事件函数用
+enter 值键盘的键位值   @keyup   @click.stop 解除冒泡 .once事件一次
+
+@mousedown.prevent  阻止默认事件  @clike.sel;pf  只在触只触发发事件身上引用
+mousedenter  mousedlisten  没有默认事件
+
+computed{}计算属性

